@@ -1,4 +1,4 @@
-package com.lambdaschool;
+package com.lambdaschool.part03InterfaceInjection;
 
 public class LambdaTeletypeImpl implements MessageService
 {

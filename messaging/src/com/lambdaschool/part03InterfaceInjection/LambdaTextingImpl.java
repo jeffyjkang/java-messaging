@@ -1,4 +1,4 @@
-package com.lambdaschool;
+package com.lambdaschool.part03InterfaceInjection;
 
 public class LambdaTextingImpl implements MessageService
 {

@@ -2,7 +2,6 @@ package com.lambdaschool.part01TightlyCoupled;
 
 public class MyApplication
 {
-    // constructor injections
     private MessageService msgSrv = new MessageService();
 
     public void send(String msg, String receiveAddress)

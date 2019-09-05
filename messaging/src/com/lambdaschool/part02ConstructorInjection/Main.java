@@ -2,11 +2,13 @@ package com.lambdaschool.part02ConstructorInjection;
 
 public class Main
 {
-
+    // psvm <tab>
     public static void main(String[] args)
     {
-        // Constructor dependency injection
-        MyApplication messaging = new MyApplication(new MessageService());
-        messaging.send("Hello", "JRMMBA8314");
+        MyApplication ourmessaging = new MyApplication(new OurMessageService());
+        ourmessaging.send("Hello", "JRMMBA8314");
+
+        MyApplication yourmessaging = new MyApplication(new YourMessageService());
+        yourmessaging.send("Good Bye", "JRMMBA@OUTLOOK.COM");
     }
 }

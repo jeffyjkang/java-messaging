@@ -7,6 +7,7 @@ public class MessageService
         // sout
         System.out.println("For " + address + ": " + message);
     }
+
     public String readMessage()
     {
         return ("Not Implemented");

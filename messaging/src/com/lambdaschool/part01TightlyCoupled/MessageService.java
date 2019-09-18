@@ -5,6 +5,7 @@ public class MessageService
     public void sendMessage(String message, String address)
     {
         // sout
+        //format: For address : message
         System.out.println("For " + address + ": " + message);
     }
 

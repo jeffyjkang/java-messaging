@@ -12,27 +12,36 @@ public class Main
         MessageServiceInjector injector;
         Processor app;
 
-        System.out.println();
-        System.out.println();
-        System.out.println();
+//        System.out.println();
+//        System.out.println();
+//        System.out.println();
+        for (int i = 0; i <3 ; i++) {
+            System.out.println();
+        }
 
         // send Lambda Message
         injector = new LambdaMessageInjector();
         app = injector.getProcess();
         app.sendMessage(myMsg, myAddress);
 
-        System.out.println();
-        System.out.println();
-        System.out.println();
+//        System.out.println();
+//        System.out.println();
+//        System.out.println();
+        for (int i = 0; i <3 ; i++) {
+            System.out.println();
+        }
 
         // send Lambda Texting
         injector = new LambdaTextingServiceInjector();
         app = injector.getProcess();
         app.sendMessage(myMsg, myText);
 
-        System.out.println();
-        System.out.println();
-        System.out.println();
+//        System.out.println();
+//        System.out.println();
+//        System.out.println();
+        for (int i = 0; i <3 ; i++) {
+            System.out.println();
+        }
 
         // send Lambda Teletype
         injector = new LambdaTeletypeServiceInjector();
